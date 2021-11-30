@@ -1,0 +1,107 @@
+﻿@model LAYER_ENTITY.Vehiculo
+
+@{
+    ViewBag.Title = "Detalle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalle</h2>
+
+<div>
+    <h4>Vehiculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdVehiculo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdVehiculo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Patente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Patente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NroChasis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NroChasis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NroMotor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NroMotor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CantPuertas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CantPuertas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoVehiculo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoVehiculo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoCombustible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoCombustible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cilindrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cilindrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdEstado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdEstado)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

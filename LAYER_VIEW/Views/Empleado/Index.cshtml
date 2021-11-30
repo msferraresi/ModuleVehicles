@@ -1,0 +1,55 @@
+﻿@model IEnumerable<LAYER_ENTITY.Empleado>
+
+@{
+    ViewBag.Title = "Listado de Empleados";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Listado de Empleados</h3>
+
+<p>
+    @Html.ActionLink("Nuevo", "Crear", "Empleado", new { @class = "btn btn-success btn-sm" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DNI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            Estado
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td hidden>
+            @Html.DisplayFor(modelItem => item.IdEmpleado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DNI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdEstado)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new {  id=item.IdEmpleado  }, new { @class = "btn btn-warning btn-sm" }) |
+            @Html.ActionLink("Detalle", "Detalle", new {  id=item.IdEmpleado  }, new { @class = "btn btn-primary btn-sm" }) |
+            @Html.ActionLink("Borrar", "Borrar", new {  id=item.IdEmpleado  }, new { @class = "btn btn-danger btn-sm" })
+        </td>
+    </tr>
+}
+
+</table>

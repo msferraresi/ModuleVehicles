@@ -1,0 +1,5 @@
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_ENTITY\bin\Debug\LAYER_ENTITY.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_ENTITY\bin\Debug\LAYER_ENTITY.pdb
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_ENTITY\obj\Debug\LAYER_ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_ENTITY\obj\Debug\LAYER_ENTITY.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_ENTITY\obj\Debug\LAYER_ENTITY.pdb

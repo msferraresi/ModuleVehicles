@@ -1,0 +1,14 @@
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\LAYER_DATA.dll.config
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\LAYER_DATA.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\LAYER_DATA.pdb
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\EntityFramework.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\LAYER_ENTITY.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\LAYER_ENTITY.pdb
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\EntityFramework.xml
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\obj\Debug\LAYER_DATA.csprojAssemblyReference.cache
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\obj\Debug\LAYER_DATA.csproj.CoreCompileInputs.cache
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\obj\Debug\LAYER_DATA.csproj.CopyComplete
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\obj\Debug\LAYER_DATA.dll
+C:\Users\drakko\source\repos\Vehicle Maintenance Module\LAYER_DATA\obj\Debug\LAYER_DATA.pdb

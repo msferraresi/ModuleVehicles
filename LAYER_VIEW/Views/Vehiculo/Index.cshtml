@@ -1,0 +1,91 @@
+﻿@model IEnumerable<LAYER_ENTITY.Vehiculo>
+
+@{
+    ViewBag.Title = "Vehiculos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Vehiculos</h2>
+
+<p>
+    @Html.ActionLink("Agregar vehiculo", "Crear", "Vehiculo", new { @class = "btn btn-success btn-sm" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Patente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NroChasis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NroMotor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CantPuertas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoVehiculo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoCombustible)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cilindrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdEstado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td hidden>
+            @Html.DisplayFor(modelItem => item.IdVehiculo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Patente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NroChasis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NroMotor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Modelo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CantPuertas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoVehiculo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoCombustible)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cilindrada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdEstado)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-warning btn-sm" }) |
+            @Html.ActionLink("Detalle", "Details", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-primary btn-sm" }) |
+            @Html.ActionLink("Borrar", "Delete", new { /* id=item.PrimaryKey */ }, new { @class = "btn btn-danger btn-sm" })
+        </td>
+    </tr>
+}
+
+</table>
